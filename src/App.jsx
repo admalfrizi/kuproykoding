@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { CartProvider } from 'react-use-cart'
 import Navbar from './components/Navbar/Navbar';
 import RoutingScreen from './components/Navbar/RoutingScreen'
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <CartProvider>
           <Navbar/>
           <RoutingScreen/>
+          <Footer/>
         </CartProvider>
       </Fragment>
     </Router>

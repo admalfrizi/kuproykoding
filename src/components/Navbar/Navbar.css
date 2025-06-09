@@ -4,14 +4,18 @@
     background: #3D2C8D;
     height: 73px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
     position: fixed;
 }
 
 .NavbarContainer .IconsTitle {
     justify-self: start;
+}
+
+.NavbarContainer .IsiContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-menu {
@@ -41,7 +45,7 @@
     
 }
 
-.nav-links:focus {
+.active {
     color: white;
     background-color: #4B5EC6;
     border-radius: 20px;

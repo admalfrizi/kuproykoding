@@ -43,12 +43,6 @@ const Produk = () => {
                     ))}
                 </div>
             </div>
-            <div className='Footer'>
-                <div className='FooterIsi'>
-                    <img src='assets/title_word.svg' alt='title'/>
-                    <p>Copyright - 2021</p>
-                </div>
-            </div>
         </div>
     )
 }

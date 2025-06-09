@@ -8,7 +8,6 @@ import etc from '../../../assets/etc_ic.svg';
 import wa from '../../../assets/wa_ic.svg';
 import instagram from '../../../assets/instagram_ic.svg';
 import email from '../../../assets/email_ic.svg';
-import titleWord from '../../../assets/title_word.svg';
 
 const Home = () =>  {
     return (
@@ -91,12 +90,7 @@ const Home = () =>  {
                     </div>
                 </div>
             </div>
-            <div className='Footer'>
-                <div className='FooterIsi'>
-                    <img src={titleWord} alt='title'/>
-                    <p>Copyright - 2021</p>
-                </div>
-            </div>
+            
         </div>
     )
 }

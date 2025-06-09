@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {Component} from 'react';
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import { useCart } from "react-use-cart";
 import titleWord from '../../assets/title_word.svg'
 import wa from '../../assets/wa_ic.svg'
@@ -22,52 +21,47 @@ const ItemLength = () => {
 
 }
 
-class Navbar extends Component {
+const Navbar = () => {
 
-    state = {clicked: false}
+    const state = {clicked: false}
 
-    handleClick = () => {
-        this.setState({ clicked : !this.state.clicked })
+    const handleClick = () => {
+        setState({ clicked : !state.clicked })
     }
 
-    render() {
-        return (
-            <nav className="NavbarContainer">
+    return (
+        <nav className="NavbarContainer">
+            <div className="IsiContainer">
                 <div className="IconsTitle">
                     <a>
                         <img src={titleWord} alt="ic_title"/>
                     </a>
                 </div>
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}>
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={state.clicked ? 'fas fa-times' : 'fas fa-bars'}>
                     </i>
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu' }> 
-                    <Link to="/" className="nav-links">
+                <ul className={state.clicked ? 'nav-menu active' : 'nav-menu' }> 
+                    <NavLink to="/" className={`nav-links ${({isActive}) => (isActive ? "active" : "")}`}>
                         <li>
                             Beranda
                         </li>
-                    </Link> 
-                    <Link to="/project" className="nav-links">
+                    </NavLink> 
+                    <NavLink to="/project" className={`nav-links ${({isActive}) => (isActive ? "active" : "")}}`}>
                         <li>
                             Project
                         </li>
-                    </Link>
-                    <Link to="/categories" className="nav-links">
-                        <li>
-                            Kategori
-                        </li>
-                    </Link>
-                    <Link to="/produk" className="nav-links">
+                    </NavLink>
+                    <NavLink to="/produk" className={`nav-links ${({isActive}) => (isActive ? "active" : "")}}`}>
                         <li>
                             Produk
                         </li>
-                    </Link>
-                    <Link to="/contact" className="nav-links">
+                    </NavLink>
+                    <NavLink to="/contact" className={`nav-links ${({isActive}) => (isActive ? "active" : "")}}`}>
                         <li>
                             Contact
                         </li>
-                    </Link>
+                    </NavLink>
                 </ul>
                 <div className="nmr_telp">
                     <img src={wa} alt="wa"/>
@@ -85,9 +79,11 @@ class Navbar extends Component {
                     <img src={cart} alt="notif"/>
                     <ItemLength/>
                 </Link>
-            </nav>
-        )
-    }
+            </div>
+            
+        </nav>
+    )
+    
 }
 
 export default Navbar
