@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(131, 24, 219);
+}
+
+.CartView {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.cartViewEmpty {
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Dosis";
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.CartView .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.CartView .header .cartViewHeader {
+    font-family: "Dosis";
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.CartView .header .totalItemsInfo {
+    font-family: "Dosis";
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.CartView .cart-items-total-price {
+    display: flex;
+    flex-direction: row;
+    font-family: "Dosis";
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.CartView .cart-items-total-price .cart-items-total {
+    margin-left: 10px ;
+    color: rgb(72, 175, 24);
+    font-weight: 800;
+}
+.CartView table{
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 92%;
+}
+
+
+.CartView table tr td {
+    text-align: center;
+    color: white;
+    font-family: "Dosis";
+    font-size: 16px;
+}
+
+.CartView table tr:nth-child(even) {
+    background-color: rgb(148, 109, 253);
+}
+
+.CartView table tr:nth-child(odd) {
+    background-color: rgb(109, 63, 235);
+}
+
+.btn-min {
+    background: #cc2323;
+    padding: 5px;
+    margin-right: 23px;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    width: 5%;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-add {
+    background: #1d9ec5;
+    padding: 5px;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 5%;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-remove {
+    background: #dd6565;
+    padding: 15px;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    background: #a74949;
+}
+
+.bottom-view {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px ;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.button-remove .btn-remove-cart {
+    background: #e02626;
+    padding: 15px;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 20px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button-remove .btn-remove-cart:hover {
+    background: #dd6565;
+}

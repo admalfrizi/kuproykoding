@@ -1,0 +1,147 @@
+.formContainer{
+    justify-content: center;
+}
+
+.formContainer .title {
+    margin: auto;
+    width: 40%;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.formContainer .isi {
+   text-align: center;
+   margin-top: 46px;
+}
+
+.formContainer .isi .lokasiPhone {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 43%;
+}
+
+.formContainer .isi .lokasiPhone #lokasi::placeholder {
+    color: #000;
+    font-family: "Dosis";
+    font-weight: 600;
+}
+
+.formContainer .isi .lokasiPhone #number::placeholder {
+    color: #000;
+    font-family: "Dosis";
+    font-weight: 600;
+}
+
+.formContainer .isi .lokasiPhone input[type=text]{
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 40%;
+}
+
+.formContainer .isi .lokasiPhone input[type=tel]:focus{
+    outline: none;
+}
+
+.formContainer .isi .lokasiPhone input[type=tel]{
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 40%;
+}
+
+.formContainer .isi .lokasiPhone input[type=text]:focus{
+    outline: none;
+}
+
+
+.formContainer .isi .namaLengkap input[type=text] {
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 39%;
+}
+
+.formContainer .isi .namaLengkap input[type=text]:focus {
+    outline: none;
+}
+
+.formContainer .isi .namaLengkap #nama::placeholder {
+    color: #000;
+    font-family: "Dosis";
+    font-weight: 600;
+}
+
+
+.formContainer .isi .alamat input[type=text] {
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 39%;
+}
+
+.formContainer .isi .alamat input[type=text]:focus {
+    outline: none;
+}
+
+.formContainer .isi .alamat #alamat::placeholder {
+    color: #000;
+    font-family: "Dosis";
+    font-weight: 600;
+}
+
+.formContainer .isi .email input[type=email] {
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 42px;
+    width: 39%;
+}
+
+.formContainer .isi .email input[type=email]:focus {
+    outline: none;
+}
+
+.formContainer .isi .email #email::placeholder {
+    color: #000;
+    font-family: "Dosis";
+    font-weight: 600;
+}

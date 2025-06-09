@@ -1,0 +1,205 @@
+@import "@fontsource/dosis";
+
+.PaketContainer{
+    justify-content: center;
+    padding-bottom: 53px;
+    background-color: blueviolet;
+    padding-top: 100px;
+}
+
+.PaketContainer .title {
+    margin: auto;
+    width: 81%;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.PaketContainer .Paket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.PaketContainer .Paket .Paket1 {
+    background-color: #60BFB4;
+    border-radius: 30px;
+    padding-left: 72px;
+    padding-right: 64px;
+    text-align: center;
+}
+
+.PaketContainer .Paket .Paket1 h1 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 79px;
+}
+
+.PaketContainer .Paket .Paket1 h2 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 35.81px;
+}
+
+.PaketContainer .Paket .Paket1 .list_benefit {
+    text-align: center;
+    margin-bottom: 102px;
+    margin-top: 50px;
+}
+
+.PaketContainer .Paket .Paket1 .list_benefit p {
+    font-family: "Dosis";
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.PaketContainer .Paket .Paket1 .Choose {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 39.93px;
+}
+
+.PaketContainer .Paket .Paket1 .Choose:hover {
+    background-color: #7083ED;
+}
+
+.PaketContainer .Paket .Paket2 {
+    background-color: #7C89FF;
+    border-radius: 30px;
+    padding-left: 33px;
+    padding-right: 34px;
+    text-align: center;
+}
+
+.PaketContainer .Paket .Paket2 h1 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 69px;
+}
+
+.PaketContainer .Paket .Paket2 h2 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 56px;
+}
+
+.PaketContainer .Paket .Paket2 .list_benefit {
+    text-align: center;
+    color: white;
+    margin-bottom: 102px;
+    margin-top: 50px;
+}
+
+.PaketContainer .Paket .Paket2 .list_benefit p {
+    font-family: "Dosis";
+    font-weight: 500;
+    font-size: 20px;
+}
+.PaketContainer .Paket .Paket2 .Choose {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.PaketContainer .Paket .Paket2 .Choose:hover {
+    background-color: #7083ED;
+}
+
+
+.PaketContainer .Paket .Paket3 {
+    background-color: #E47524;
+    border-radius: 30px;
+    padding-left: 55px;
+    padding-bottom: 39.93px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.PaketContainer .Paket .Paket3 h1 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 79px;
+}
+
+.PaketContainer .Paket .Paket3 h2 {
+    font-family: "Dosis";
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+    margin-top: 50.5px;
+}
+
+.PaketContainer .Paket .Paket3 .list_benefit {
+    text-align: center;
+    color: white;
+    margin-bottom: 54px;
+    margin-top: 31px;
+}
+
+.PaketContainer .Paket .Paket3 .list_benefit p {
+    font-family: "Dosis";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.PaketContainer .Paket .Paket3 .Choose {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.PaketContainer .Paket .Paket3 .Choose:hover {
+    background-color: #7083ED;
+}

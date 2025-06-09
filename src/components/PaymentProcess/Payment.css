@@ -1,0 +1,130 @@
+@import "@fontsource/dosis";
+
+.PaymentContainer{
+    background: #6B3E6D;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.PaymentContainer .stepNav {
+    margin: auto;
+    width: 40%;
+}
+
+.stepBlock {
+    margin-right: 20px;
+}
+
+.circle {
+    width: 29px;
+    height: 29px;
+    border: 2px solid transparent;
+    line-height: 27px;
+    background-color: #72C7EC;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align:center;
+}
+
+.stepWrapper {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.stepBlock .circleWrapper {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.stepBlock span {
+    margin-right: 20px;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 400;
+    text-align: center;
+}
+
+.selected .circle {
+    color: black;
+    background-color: white;
+    font-family: "Dosis";
+}
+
+.form {
+    margin-top: 54px;
+}
+
+.nextorprevious  {
+    text-align: end;
+    margin-right: 460px;
+    margin-bottom: 53px;
+}
+
+.Previous {
+    background-color: #dd1111;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    margin-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Previous:hover {
+    background-color: #b41515;
+}
+
+.Next {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Next:hover {
+    background-color: #39489b;
+}
+
+.Footer {
+    background-color: #8763D1;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.Footer .FooterIsi {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer .FooterIsi p {
+    font-family: "Dosis";
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,143 @@
+.ProdukContainer {
+    padding-top: 73px;
+    justify-content: center;
+}
+.ProdukContainer .page {
+    background-color: #8873ff;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 105px;
+}
+
+.ProdukContainer .page .title {
+    font-family: "Dosis";
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.ProdukContainer .page .title .Search input {
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin-bottom: 47px;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.ProdukContainer .page .title .Search input {
+    outline: none;
+}
+
+.products {
+    margin: auto;
+    width: 84%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 390px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 40px 20px;
+    background-color: rgb(28, 84, 156);
+}
+
+.productImage {
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    object-fit: fill;
+}
+
+.product-name {
+    text-transform: uppercase;
+    font-family: "Dosis";
+    color: white;
+    font-size: 19px;
+    margin: 10px 0px;
+}
+
+.price-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.Rp-tag{
+    margin: 10px 0px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: "Dosis";
+    color: rgb(98, 230, 168);
+}
+
+.product-price {
+    margin: 10px 5px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-family: "Dosis";
+    color: rgb(98, 230, 168);
+}
+
+.product-add-btn {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-add-btn:hover {
+    background-color: #7083ED;
+}
+
+
+.Footer {
+    background-color: #8763D1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Footer .FooterIsi {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer .FooterIsi p {
+    font-family: "Dosis";
+    color: white;
+    font-size: 18px;
+}

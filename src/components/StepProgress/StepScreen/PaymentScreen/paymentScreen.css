@@ -1,0 +1,13 @@
+.paymentForm {
+    justify-content: center;
+    padding-bottom: 53px;
+}
+
+.paymentForm .Title h1 {
+    margin: auto;
+    width: 40%;
+    color: white;
+    font-family: "Dosis";
+    font-weight: 800;
+    font-size: 28px;
+}

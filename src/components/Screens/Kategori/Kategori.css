@@ -1,0 +1,60 @@
+@import "@fontsource/dosis";
+
+.KategoriContainer{
+    background: #6B3E6D;
+    justify-content: center;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.KategoriContainer .title {
+    margin: auto;
+    width: 81%;
+}
+
+.KategoriContainer .title h1 {
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 37px;
+}
+
+.KategoriContainer .title p {
+    font-family: "Dosis";
+    color: white;
+    font-size: 20px;
+}
+
+.KategoriContainer .isi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 147px;
+    margin-right: 147px;
+}
+
+.KategoriContainer .isi .card {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.Footer {
+    background-color: #8763D1;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.Footer .FooterIsi {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer .FooterIsi p {
+    font-family: "Dosis";
+    color: white;
+    font-size: 18px;
+}

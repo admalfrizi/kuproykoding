@@ -1,0 +1,93 @@
+@import "@fontsource/dosis";
+
+.NavbarContainer {
+    background: #3D2C8D;
+    height: 73px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.NavbarContainer .IconsTitle {
+    justify-self: start;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 50vw;
+    justify-content: center;
+}
+
+.nav-links {
+    color: #D1A3FF;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-family: "Dosis";
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.nav-links:hover {
+    color: white;
+    background-color: #4B5EC6;
+    border-radius: 20px;
+    
+}
+
+.nav-links:focus {
+    color: white;
+    background-color: #4B5EC6;
+    border-radius: 20px;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nmr_telp {
+    display: flex;
+    flex-direction: row;
+}
+
+.nmr {
+    margin-left: 18px;
+    color: #ffffff;
+    font-family: "Dosis";
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.chat_and_notif {
+    margin-left: 87px;
+}
+
+.notif {
+    margin-left: 22px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    margin-left: 22px;
+}
+
+.totalitems {
+    margin-left: 5px;
+}
+
+.totalitems p {
+    color: cornsilk;
+    font-family: "Dosis";
+    font-size: 16px;
+}

@@ -1,0 +1,302 @@
+@import "@fontsource/dosis";
+
+.HomeContainer {
+    justify-content: center;
+}
+.BannerHome {
+    background: #916BBF;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    padding-bottom: 105px;
+}
+
+.BannerHome .Isi {
+    display: flex;
+    flex-direction: row;
+    padding-right: 160px;
+    padding-left: 180px;
+}
+
+.BannerHome .BannerTitle {
+    justify-self: start;
+    margin-right: 159px;
+}
+
+.BannerHome .BannerTitle h1 {
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Dosis";
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 47px;
+}
+
+.BannerHome .BannerTitle p {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Dosis";
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.EmailSubmission {
+    background: #C996CC;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.EmailSubmission h1 {
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Dosis";
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.EmailSubmission .InputEmail {
+    display: flex;
+    flex-direction: column;
+}
+
+.EmailSubmission .InputEmail #email::placeholder {
+    color: black;
+}
+
+.EmailSubmission .InputEmail input[type=text] {
+    background: #ffffff;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    font-weight: 600;
+    padding-top: 14px;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 47px;
+    width: 40%;
+}
+
+.EmailSubmission .InputEmail .Kirimkan {
+    background: #4B5EC6;
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border: none;
+    border-radius: 13px;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin: auto;
+    width: 10%;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.EmailSubmission .InputEmail .Kirimkan:hover {
+    background: #39489b;
+}
+
+.EmailSubmission .InputEmail input[type=text]:focus {
+    outline: none;
+}
+
+.WhoUs {
+    background-color: #8C93D2;
+    display: flex;
+    flex-direction: row;
+    padding-top: 57px;
+    padding-right: 160px;
+    padding-left: 180px;
+    padding-bottom: 91.69px;
+}
+
+.WhoUs .WhoUsInfo h2 {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.WhoUs .WhoUsInfo p {
+    font-family: "Dosis";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.WhoUs .ImgWhoUs {
+    margin-left: 224px;
+}
+
+.Services {
+    background-color: #C996CC;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 112px;
+    padding-top: 51px;
+}
+
+.Services .ServiceTitle {
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Services .ServiceTitle h1{
+    font-family: "Dosis";
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.Services .ServiceTitle p{
+    font-family: "Dosis";
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.Services .ServicesIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.Services .ServicesIcons .profile_corp img {
+    margin-left: 15px;
+}
+
+.Services .ServicesIcons .profile_corp p {
+    text-align: center;
+    font-family: "Dosis";
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.Services .ServicesIcons .online_shop p {
+    text-align: center;
+    font-family: "Dosis";
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.Services .ServicesIcons .web_personal p {
+    text-align: center;
+    font-family: "Dosis";
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.Services .ServicesIcons .etc p {
+    text-align: center;
+    font-family: "Dosis";
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.Find_us {
+    background-color: #4B5EC6;
+    border-radius: 21px;
+    border: none;
+    width: 156px;
+    padding-top: 14px;
+    padding-bottom: 14.33px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis";
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Find_us:hover {
+    background-color: #39489b;
+}
+
+.Contact {
+    background-color: #6B3E6D;
+    padding-top: 51px;
+    padding-bottom: 51px;
+}
+
+.Contact .ContactTitle {
+    text-align: center;
+    font-family: "Dosis";
+    color: white;
+    font-weight: 700;
+}
+
+.Contact .ContactIsi {
+    margin: auto;
+    width: 24%;
+}
+
+
+.Contact .ContactIsi .Whatsapp {
+    font-family: "Dosis";
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact .ContactIsi .Whatsapp img {
+    margin-right: 44px;
+}
+
+.Contact .ContactIsi .Instagram {
+    font-family: "Dosis";
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact .ContactIsi .Instagram img {
+    margin-right: 44px;
+}
+
+.Contact .ContactIsi .Email {
+    font-family: "Dosis";
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact .ContactIsi .Email img {
+    margin-right: 44px;
+}
+
+.Footer {
+    background-color: #8763D1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Footer .FooterIsi {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer .FooterIsi p {
+    font-family: "Dosis";
+    color: white;
+    font-size: 18px;
+}
